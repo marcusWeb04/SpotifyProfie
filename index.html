@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="public/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpotiProfile made by Marcus</title>
+  </head>
+  <body>
+    <h2>Connecter en tant que <span id="displayName"></span></h2>
+    <section id="profile">
+      <span id="avatar"></span>
+      <ul>
+        <li>User ID: <span id="id"></span></li>
+        <li>Email: <span id="email"></span></li>
+        <li>Spotify URI: <a id="uri" href="#"></a></li>
+        <li>Link: <a id="url" href="#"></a></li>
+        <li>Profile Image: <span id="imgUrl"></span></li>
+      </ul>
+    </section>
+    <section id="artists">
+      <form action="#" method="post" class="search-bar-method">
+        <input type="reserch" placeholder="rechercher un artiste" />
+        <button>+</button>
+      </form>
+      <div class="container-section" id="container-artist"></div>
+    </section>
+    <section id="playlist">
+      <form action="#" method="post" class="search-bar-method">
+        <input type="reserch" placeholder="rechercher une playlist" />
+        <button>+</button>
+      </form>
+      <div class="container-section" id="container-artist"></div>
+    </section>
+    <section id="music"></section>
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>

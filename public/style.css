@@ -1,0 +1,93 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2c2c;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a,
+li,
+span,
+h2,
+p {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+#profile {
+  width: 50%;
+  min-width: fit-content;
+  margin: 5% 0 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 2%;
+}
+
+#avatar img {
+  border-radius: 400px;
+}
+
+.search-bar-method {
+  width: 40%;
+  padding: 0.4%;
+  display: flex;
+  margin: 2% auto;
+  justify-content: space-around;
+  border-radius: 40px;
+  background-color: white;
+  border: 5px solid #1ed760;
+}
+.search-bar-method input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 90%;
+}
+.search-bar-method button {
+  width: 10%;
+  height: 100%;
+  border: none;
+}
+
+#artists {
+  height: 100vh;
+}
+
+#artists .container-section {
+  border: 1px solid black;
+  height: 91%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-section .content {
+  border: 1px solid black;
+  width: 15%;
+  height: 45%;
+  margin: 0 5%;
+}
+
+#playlist {
+  height: 100vh;
+}
+#playlist .container-section {
+  height: 87%;
+}
