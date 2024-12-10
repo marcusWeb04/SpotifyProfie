@@ -27,6 +27,17 @@ ul {
   list-style: none;
 }
 
+#player {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.player {
+  width: 70%;
+}
+
 #profile {
   width: 50%;
   min-width: fit-content;
@@ -89,5 +100,24 @@ ul {
   height: 100vh;
 }
 #playlist .container-section {
-  height: 87%;
+  min-height: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.playlist {
+  width: 17%;
+  margin: 1% auto;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+}
+.playlist img {
+  height: 90%;
+  width: 90%;
+  border-radius: 5%;
 }
